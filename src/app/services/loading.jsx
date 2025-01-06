@@ -1,4 +1,4 @@
-import Wrapper from "@/components/Wrapper";
+import Wrapper from "@/components/wrapper";
 
 export default function Loading() {
   // Or a custom loading skeleton component

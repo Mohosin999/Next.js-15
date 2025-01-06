@@ -1,4 +1,4 @@
-import Wrapper from "@/components/Wrapper";
+import Wrapper from "@/components/wrapper";
 import Image from "next/image";
 import Image_01 from "/public/img/img_01.jpg";
 import Image_02 from "/public/img/img_02.jpg";
@@ -8,7 +8,7 @@ const Services = async () => {
 
   return (
     <Wrapper>
-      <h2>Service Page</h2>
+      {/* Images */}
       <div className="flex items-center justify-center gap-4">
         <Image src={Image_01} alt="Image One" width={300} height={300} />
         <Image src={Image_02} alt="Image One" width={300} height={300} />
