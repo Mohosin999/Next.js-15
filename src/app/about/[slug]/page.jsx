@@ -1,12 +1,12 @@
 import Wrapper from "@/components/Wrapper";
 import React from "react";
 
-const Home = () => {
+const AboutPerson = ({ params }) => {
   return (
     <Wrapper>
-      <h1>This is Home Page</h1>
+      <h2>My name is {params.slug}</h2>
     </Wrapper>
   );
 };
 
-export default Home;
+export default AboutPerson;
