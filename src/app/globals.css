@@ -19,3 +19,20 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.contact-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.submit-button {
+  margin-top: 15px;
+  padding: 4px 10px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 14px;
+}
+
+.submit-button:hover {
+  background-color: red;
+}
